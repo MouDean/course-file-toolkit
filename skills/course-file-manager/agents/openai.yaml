@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course File Manager"
+  short_description: "Prepare course files, checklists, and CRC rosters"
+  default_prompt: "Use $course-file-manager to prepare my section course files and update checklists and CRC rosters while preserving their templates."
