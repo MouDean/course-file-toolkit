@@ -75,9 +75,13 @@ Only fictional examples belong in this project. Do not contribute university tem
 
 Contributions are welcome: export adapters, clearer instructor guidance, synthetic regression cases, and template-preservation checks. Read [CONTRIBUTING.md](CONTRIBUTING.md). Report privacy-sensitive issues using [SECURITY.md](SECURITY.md), without posting live records.
 
-## Background and credit
+## Author and project background
 
-Created by [codebea](https://github.com/codebea) from a practical faculty course-file preparation workflow. The project demonstrates workflow design, reusable agent instructions, source-data validation, Office-format preservation checks, and Python testing. It is an independent project and is not endorsed by a university, Oracle, Microsoft, GitHub, or OpenAI.
+Created by **[Mousa Alhatti (Mou) / @MouDean](https://github.com/MouDean)** from a practical faculty course-file preparation workflow. Mousa works in higher education and educational technology at Abu Dhabi University, with interests in AI-assisted academic workflows, student-success tools, data quality, and evidence-ready institutional processes.
+
+[LinkedIn](https://www.linkedin.com/in/mousa-alhatti) · [ORCID](https://orcid.org/0009-0006-6509-5786)
+
+The project demonstrates workflow design, reusable agent instructions, source-data validation, Office-format preservation checks, and Python testing. It is an independent project and is not endorsed by a university, Oracle, Microsoft, GitHub, or OpenAI.
 
 ## License
 
