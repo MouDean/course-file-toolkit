@@ -1,0 +1,39 @@
+# Private jobs and real institutional documents
+private-job/
+private-jobs/
+job/
+jobs/
+sources/
+backups/
+staging/
+outputs/
+downloads/
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*.mp4
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.log
+*.inspect.ndjson
+.env
+.env.*
+credentials*
+tokens*
+
+# Local Python/editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# CSV/JSON files can also contain private data. Keep all real jobs in the
+# ignored directories above and manually review every staged text file.

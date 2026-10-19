@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "course-file-toolkit",
+  "version": "1.0.0",
+  "description": "Prepare faculty section course files, checklists, PeopleSoft rosters, and CRC workbooks while preserving university templates."
+}
