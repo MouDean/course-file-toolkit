@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "job_id": "course-setup-example",
+  "course": {"code": "DEMO100", "title": "Example Course", "term": "Fall 2026-2027", "campus": "EX"},
+  "paths": {"course_root": "SET_LOCALLY", "template_folder": "SET_LOCALLY", "private_job_directory": "SET_LOCALLY"},
+  "requested_stages": ["copy_folders", "checklists", "crc_rosters"],
+  "decisions": {"extend_student_rows": null, "clear_old_entered_marks": null, "clear_manual_statuses": null, "update_term_and_filenames": null, "keep_ungraded_results_blank": null},
+  "sections": [
+    {"section": "001", "class_number": "CLASS_A", "displayed_enrolled_count": null, "destination_folder": "SET_LOCALLY", "roster_export": "SET_LOCALLY", "source_identity_verified": false},
+    {"section": "004", "class_number": "CLASS_B", "displayed_enrolled_count": null, "destination_folder": "SET_LOCALLY", "roster_export": "SET_LOCALLY", "source_identity_verified": false}
+  ],
+  "template_adapter": {
+    "mapping_verified": false,
+    "checklist_relative_path": "1. Course Checklist/Course File Checklist.docx",
+    "crc_relative_path": "SET_AFTER_INSPECTION",
+    "metadata": {"sheet": "Course Information", "section": "B4", "term": "B5", "student_count": "B6"},
+    "students": {"sheet": "Grade Sheet", "first_row": 6, "last_row": null, "sequence_column": "A", "surname_column": "B", "given_names_column": "C", "id_column": "D", "mark_input_columns": [], "manual_status_columns": []},
+    "linked_sheets": ["CLO sheet"],
+    "grading_rule_source": "READ_EXISTING_TEMPLATE"
+  },
+  "note": "Illustrative only. Null decisions are unresolved, not permission. Discover and verify the real workbook before using addresses."
+}
